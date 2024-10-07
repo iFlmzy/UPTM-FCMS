@@ -1,0 +1,338 @@
+@font-face {
+  font-family: "WixMadeforDisplayExtraBold";
+  src: url("../fonts/WixMadeforDisplay-ExtraBold.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Adventis";
+  src: url("../fonts/Adventis.woff2") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.home {
+  background-image: url("../img/home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: inherit;
+  background-position: 50% 50%;
+  height: 90vh;
+  margin: 0;
+  position: relative;
+}
+
+.home .text {
+  font-size: Adventis, "sans-serif" !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  letter-spacing: 0.1em;
+  /* -webkit-text-fill-color: #000; */
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 8px 8px #ed1c24, 20px 20px #000000;
+}
+
+.home .text {
+  font-size: Adventis, "sans-serif" !important;
+  position: absolute;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 100px;
+  font-weight: bolder;
+  text-align: center;
+  z-index: 10;
+  line-height: 1;
+  top: 45%;
+  left: 50%;
+}
+
+.home .backdrop {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(43, 93, 162, 0.5);
+}
+
+.other {
+  background-color: #2b5da2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: inherit;
+  background-position: 50% 50%;
+  height: 50vh;
+  margin: 0;
+  position: relative;
+}
+
+.other .text {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 100px;
+  font-weight: bolder;
+  text-align: center;
+  z-index: 10;
+  top: 20%;
+  left: 40%;
+}
+
+.other .text .title {
+  font-family: Adventis, "sans-serif" !important;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 7.5rem;
+  line-height: 110px;
+  text-align: center;
+  color: transparent;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: #fff;
+  margin: 0;
+  letter-spacing: 10px;
+  z-index: 0;
+}
+
+.other .text .desc {
+  font-family: Adventis, "sans-serif" !important;
+  top: 0;
+  margin-top: 40px;
+  position: absolute;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 60px;
+  line-height: 54px;
+  display: block;
+  color: #fff;
+  z-index: 10;
+}
+
+.other .backdrop {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 1;
+}
+
+.border-divider {
+  position: absolute;
+  bottom: 0;
+  transform: rotate(180deg);
+  width: 100%;
+}
+
+.border-divider2 {
+  position: absolute;
+  bottom: -15px;
+  width: 100%;
+}
+
+.border-divider2 path {
+  fill: #fff;
+  transform-origin: center;
+  transform: rotateY(0deg);
+}
+
+.border-divider path {
+  fill: #fff;
+  transform-origin: center;
+  transform: rotateY(0deg);
+}
+
+.title-container {
+  margin: 0 0 12px;
+  position: relative;
+}
+
+.title-container .title-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-container .title-wrapper .title-stroke {
+  font-family: Adventis, "sans-serif" !important;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 7.5rem;
+  line-height: 110px;
+  text-align: center;
+  color: transparent;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: #ed1c24;
+  margin: 0;
+  letter-spacing: 10px;
+  z-index: 0;
+}
+
+.title-container .title-wrapper .title-desc {
+  font-family: Adventis, "sans-serif" !important;
+  margin-top: 30px;
+  position: absolute;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 50px;
+  font-size: 3.125rem;
+  line-height: 54px;
+  display: block;
+  color: #2b5da2;
+  z-index: 10;
+}
+
+.title-container .title-wrapper .title-desc2 {
+  font-family: Adventis, "sans-serif" !important;
+  margin-top: 30px;
+  position: absolute;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 50px;
+  font-size: 3.125rem;
+  line-height: 54px;
+  display: block;
+  color: #ed1c24;
+  z-index: 10;
+}
+
+.adventis {
+  font-family: Adventis, "sans-serif" !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+
+.button {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  font-size: 13px;
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 14px;
+  border-radius: 0;
+  background-color: transparent;
+  border: 1px solid #000;
+  white-space: nowrap;
+  padding: 15px 37px;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+}
+
+.cat {
+  margin: 4px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #000;
+  overflow: hidden;
+  float: left;
+}
+
+.cat label {
+  float: left;
+  line-height: 3em;
+  width: 12em;
+  height: 3.5em;
+}
+
+.cat label span {
+  text-align: center;
+  padding: 5px 20px;
+  display: block;
+  cursor: pointer;
+}
+
+.cat label input {
+  position: absolute;
+  display: none;
+  color: #000 !important;
+  cursor: pointer;
+}
+
+.cat label input:disabled + span {
+  pointer-events: none;
+  background-color: #ed1c24;
+  color: #fff;
+}
+
+.cat label input + span {
+  color: #000;
+}
+
+.cat input:checked + span {
+  color: #ffffff;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+}
+
+.action input:checked + span {
+  background-color: #2b5da2;
+}
+
+.reason {
+  margin: 4px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #000;
+  overflow: hidden;
+  float: left;
+}
+
+.reason label {
+  float: left;
+  line-height: 3em;
+  /* width: 12em; */
+  /* height: 3.5em; */
+}
+
+.reason label span {
+  text-align: center;
+  padding: 5px 20px;
+  display: block;
+  cursor: pointer;
+}
+
+.reason label input {
+  position: absolute;
+  display: none;
+  color: #000 !important;
+  cursor: pointer;
+}
+
+.reason label input:disabled + span {
+  pointer-events: none;
+  background-color: #ed1c24;
+  color: #fff;
+}
+
+.reason label input + span {
+  color: #000;
+}
+
+.reason input:checked + span {
+  color: #ffffff;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+}
+
+.reason-action input:checked + span {
+  background-color: #2b5da2;
+}
